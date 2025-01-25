@@ -14,8 +14,8 @@ Wordpress-Database-System-Design-Project/
 │   ├── Dockerfile-1        # Dockerfile for the Python application
 │   ├── Dockerfile-2        # Dockerfile for the Python application
 │   ├── requirements.txt    # Python dependencies
-│   ├── script1.py          # Placeholder Python script
-│   ├── script2.py          # Python script for database interactions
+│   ├── script1.py          # Python script for insert data in Sql, NoSql and Cache memory
+│   ├── script2.py          # Python script for update wordpress blog
 │
 ├── README.md               # Documentation for the project
 ├── startup.sh              # Script to automate the startup of all services
@@ -63,7 +63,7 @@ This script will:
 - **MySQL**: Relational database for WordPress.
 - **WordPress**: Content management system running on Apache.
 
-Access WordPress at: [http://localhost:8080](http://localhost:8080)
+Access WordPress at: [http://ipadress:8080](http://ipadress:8080)
 
 ### Compose 2: Databases and Applications
 
