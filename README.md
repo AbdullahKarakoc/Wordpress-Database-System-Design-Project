@@ -11,7 +11,7 @@ Wordpress-Database-System-Design-Project/
 │
 ├── compose_2/
 │   ├── docker-compose.yml  # Docker Compose file for PostgreSQL, MongoDB, Redis, and custom apps
-│   ├── Dockerfile-1        # Dockerfile for the Go application
+│   ├── Dockerfile-1        # Dockerfile for the Python application
 │   ├── Dockerfile-2        # Dockerfile for the Python application
 │   ├── requirements.txt    # Python dependencies
 │   ├── script1.py          # Placeholder Python script
@@ -22,6 +22,10 @@ Wordpress-Database-System-Design-Project/
 ```
 
 ---
+
+## System Design with Sybelle 
+
+![System](sybelle-excalidraw/sybelle.png)
 
 ## Setup Instructions
 
