@@ -27,6 +27,25 @@ Wordpress-Database-System-Design-Project/
 
 ![System](sybelle-excalidraw/sybelle.png)
 
+# BONUS
+
+![System](bonus/bonus_network.png)
+
+- Edit VM and add new Network Interface: Add Network vmNet01 and Network Profile vmPort01.
+- An IP address is assigned to this interface with the `sudo ip addr add 1.1.1.66/24 dev enp7s0` command. (1.1.1.66 is Public IP example)
+- Network Configuration:
+
+1) In the Sybelle platform, determine the private IP addresses assigned to your virtual machines.
+NAT (Network Address Translation) or Routing Settings:
+
+2) In the network settings of the Sybelle platform, configure the necessary NAT or routing rules to make your virtual machines accessible over the internet.
+Firewall and Security Groups:
+
+3) Check your virtual machines' firewall settings and make sure HTTP (port 80) and HTTPS (port 443) traffic is allowed.
+DNS Configuration:
+
+4) If you have a domain name, point your domain name to your virtual machine's IP address by creating the appropriate A or CNAME records in the DNS settings.
+
 ## Setup Instructions
 
 ### Prerequisites
