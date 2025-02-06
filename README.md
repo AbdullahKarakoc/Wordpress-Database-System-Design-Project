@@ -29,7 +29,7 @@ Wordpress-Database-System-Design-Project/
 
 # BONUS
 
-![System](bonus/bonus_network.png)
+![Bonus](bonus/bonus_network.png)
 
 - Edit VM and add new Network Interface: Add Network vmNet01 and Network Profile vmPort01.
 - An IP address is assigned to this interface with the `sudo ip addr add 1.1.1.66/24 dev enp7s0` command. (1.1.1.66 is Public IP example)
